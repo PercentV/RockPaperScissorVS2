@@ -1,0 +1,81 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #97BC62FF;
+}
+
+body {
+    background: #2C5F2D;
+}
+
+.container {
+    max-width: 500px;
+    width: 90%;
+    margin: 0 auto;
+    padding: 50px 0;
+}
+
+h1 {
+    text-align: center;
+    font-size: 2.5rem;
+    padding: 20px;
+}
+
+.picking_board {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.picking_board img {
+    width: 150px;
+    height: 150px;
+    border-radius: 20px;
+    border: 2px double black;
+    padding: 10px;
+}
+
+.players-board {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+.player {
+    padding: 10px;
+}
+
+.player_1 {
+    font-size: 2rem;
+}
+
+.player p:last-child {
+    font-size: 1.5rem;
+}
+
+.btn {
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.btn > button {
+    cursor: pointer;
+    padding: 10px 30px;
+    font-size: 2em;
+    border-radius: 50px;
+    background: transparent;
+    transition: all .2s ease-in-out;
+}
+
+.btn > button:hover {
+    color:  #2C5F2D;
+    background:#97BC62FF;
+}
+
+.win {
+    background: green;
+}
